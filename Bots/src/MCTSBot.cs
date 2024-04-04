@@ -157,8 +157,8 @@ public class Node
             else
             {
                 nextMove = notEndTurnPossibleMoves.PickRandom(rng);
-            }
         }
+            }
         else
         {
             nextMove = Move.EndTurn();
